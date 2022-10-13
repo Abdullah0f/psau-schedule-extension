@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "version": "1.1",
+    "name": "psau schedule",
+    
+    "icons":{
+        "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+    },
+    "action":{
+        "default_icon":{
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        },
+        "default_title": "psau schedule"
+    },
+    
+ 
+    
+    "permissions": ["scripting", "downloads"],
+    "host_permissions": [
+        "https://eserve.psau.edu.sa/*"
+      ],
+
+    "background": {
+        "service_worker": "background.js"
+      }
+    
+
+
+}
